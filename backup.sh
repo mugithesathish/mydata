@@ -7,8 +7,8 @@
 
 TIME=`date +%b-%d-%y`            
 FILENAME=backup-$TIME.tar.gz     
-SRCDIR=/imp-data                 
-DESDIR=/mybackupfolder           
+SRCDIR=/home/ec2-user/imp-data                 
+DESDIR=/opt/mybackupfolder           
 tar -cpzf $SRCDIR $DESDIR/$FILENAME
 
 #END

@@ -5,10 +5,10 @@
 #Version 1.0
 #START
 
-TIME=`date +%b-%d-%y`            # This Command will add date in Backup File Name.
-FILENAME=backup-$TIME.tar.gz     # Here i define Backup file name format.
-SRCDIR=/imp-data                 # Location of Important Data Directory (Source of backup).
-DESDIR=/mybackupfolder           # Destination of backup file.
+TIME=`date +%b-%d-%y`            
+FILENAME=backup-$TIME.tar.gz     
+SRCDIR=/imp-data                 
+DESDIR=/mybackupfolder           
 tar -cpzf $DESDIR/$FILENAME $SRCDIR
 
 #END

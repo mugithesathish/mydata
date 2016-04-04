@@ -1,7 +1,7 @@
 #!/bin/bash
 #Purpose = Backup of Important Data
 #Created on 04-04-2016
-#Author = Sourav Bansal
+#Author = Sathish Kumar
 #Version 1.0
 #START
 
